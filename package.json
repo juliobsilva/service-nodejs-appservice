@@ -4,8 +4,8 @@
     "description": "My Node.js app",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js",
-      "test": "echo \"No tests specified\""
+    "start": "node index.js",
+    "build": "echo 'Build step not required for this example'"
     },
     "author": "Seu Nome",
     "license": "ISC",
