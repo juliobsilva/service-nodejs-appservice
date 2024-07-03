@@ -1,16 +1,18 @@
 {
-    "name": "my-app",
+    "name": "meu-projeto-nodejs",
     "version": "1.0.0",
-    "description": "My Node.js app",
+    "description": "Um exemplo de aplicação Node.js para publicação no Azure",
     "main": "index.js",
     "scripts": {
-    "start": "node index.js",
-    "build": "echo 'Build step not required for this example'"
+      "start": "node index.js"
     },
-    "author": "Seu Nome",
-    "license": "ISC",
     "dependencies": {
       "express": "^4.17.1"
-    }
+    },
+    "engines": {
+      "node": "20"
+    },
+    "author": "Seu Nome",
+    "license": "ISC"
   }
   
