@@ -3,10 +3,10 @@ from azure.mgmt.web import WebSiteManagementClient
 from azure.mgmt.subscription import SubscriptionClient
 
 # Substitua com suas credenciais e detalhes específicos
-subscription_id = ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-tenant_id = ${{ secrets.AZURE_TENANT_ID }}
-client_id = ${{ secrets.AZURE_CLIENT_ID }}
-client_secret = ${{ secrets.AZURE_CLIENT_SECRET }}
+subscription_id = "bdfc5b78-7a9c-4d3e-a616-913a49e3e20c"
+tenant_id = "8c974388-f2f1-4000-bd28-71fb59de657d"
+client_id = "c5ca09ac-1156-473a-b647-73165c2e049d"
+client_secret = "vEN8Q~_qB6idOJxrDfNVvB_HSPhaCnkVOIuO0cde"
 
 # Autenticação usando credenciais de serviço principal
 credentials = ClientSecretCredential(
